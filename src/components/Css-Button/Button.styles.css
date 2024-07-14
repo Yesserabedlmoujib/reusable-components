@@ -1,0 +1,39 @@
+/* Button.styles.css */
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap : 7px;
+    padding: 2px 16px;
+    border-radius: 6px;
+    
+    
+}
+
+.button.primary {
+    background-color: #f97316;
+    color: #fff;
+}
+
+.button.primary:hover {
+    background-color: #ea580c;
+}
+
+.button.secondary {
+    background-color: #6b7280;
+    color: #fff;
+}
+
+.button.secondary:hover {
+    background-color: #4b5563;
+}
+
+.button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(185, 28, 28, 1);
+}
+
+.icon {
+    margin-right: 8px;
+}
